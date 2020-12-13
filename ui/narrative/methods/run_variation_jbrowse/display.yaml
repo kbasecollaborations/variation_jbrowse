@@ -1,0 +1,34 @@
+#
+# define display information
+#
+name: View Variation in JBrowse
+tooltip: |
+    View Variation in JBrowse
+screenshots: []
+
+icon: null
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            []
+        next:
+            []
+    methods:
+        related:
+            []
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    variation_ref :
+        ui-name : |
+            Variation Object
+        short-hint : |
+            Variation Object
+description : |
+    <p>Variation Object viewer</p>
