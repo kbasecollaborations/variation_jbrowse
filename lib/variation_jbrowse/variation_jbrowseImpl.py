@@ -64,7 +64,7 @@ This sample module contains one small method that filters contigs.
         json_obj = {
             "method": "ServiceWizard.get_service_status",
             "id": "",
-            "params": [{"module_name": "JbrowseServer", "version": "dev"}]
+            "params": [{"module_name": "JbrowseServer", "version": "beta"}]
         }
         sw_resp = requests.post(url=self.sw_url, data=json.dumps(json_obj))
 
